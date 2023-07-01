@@ -1,0 +1,13 @@
+Solid Principle
+
+1. Single Responsibility -> There should never be more than one reason for a class to change
+
+2. Open/Closed Loop -> Open for extension, closed for modification.
+
+3. Liskov Substitution Principle -> We should be able to substitute base class objects
+ with child class object & this shouldn't alter behaviour/characteristics of a program.
+
+4. Interface Segregation Principle -> Clients should not be forced to depend upon interfaces
+that they don't use. { Interface Pollution }
+
+5. Dependency Inversion ->
