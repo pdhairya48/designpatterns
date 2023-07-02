@@ -10,4 +10,6 @@ Solid Principle
 4. Interface Segregation Principle -> Clients should not be forced to depend upon interfaces
 that they don't use. { Interface Pollution }
 
-5. Dependency Inversion ->
+5. Dependency Inversion -> High level modules shouldn't depends upon low level modules. Both
+should depend upon abstractions.
+ Abstractions shouldn't depend upon details. Details should depend upon abstrations.
