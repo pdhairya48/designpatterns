@@ -1,0 +1,15 @@
+Games are examples of abstract Patterns.
+ex. Age of empires
+
+Implementation Abstract Factory :
+1. We start by studying the product "sets"
+   a. Create abstract factory asn an abstract class or an interface
+
+Abstract factory makes use of factory method pattern, you can think of abstract factory
+as an object with multiple factory methods.
+
+
+PITFALLS :-
+
+A lot more complex to implement than factory method.
+Difficult to visualize beforehand the need of this design pattern.
