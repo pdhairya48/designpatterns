@@ -8,7 +8,9 @@ public class LazyRegistry2 {
     private static class RegistryHolder {
         static LazyRegistry2 instance=new LazyRegistry2();
     }
+
     public static LazyRegistry2 getInstance(){
         return RegistryHolder.instance;
     }
+
 }
