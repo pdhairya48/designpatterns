@@ -1,0 +1,9 @@
+
+1. Control Instance Creation.
+2. Keeping Track of instance.
+3. Giving access to the singleton instance.
+
+Two ways:
+1. Early Initialization
+2. Lazy Initialization
+
