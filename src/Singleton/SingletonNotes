@@ -6,4 +6,7 @@
 Two ways:
 1. Early Initialization
 2. Lazy Initialization
+    *** Use Double Check locking ( Check .java code files ) ***
+3. Initialization Holder ( BEST WAY .... )
+
 
