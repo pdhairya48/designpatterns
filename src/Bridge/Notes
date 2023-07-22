@@ -1,0 +1,14 @@
+Structural Design Pattern
+
+1. Using bridge pattern, we can decouple implementation & abstraction so they can both change without affecting each other
+2. We achieve this feat by creating two separate inheritance hierarchies; one for implementation and another for abstraction.
+
+Implement a bridge
+
+=> abstraction (has a)----- implementor { abstraction may use methods of implementor to do it's task }
+=> client (has a) abstraction
+
+
+
+
+
