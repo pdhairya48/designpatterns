@@ -1,0 +1,13 @@
+
+DDoS
+Attackers sends lot of requests and server's resources are consumed hence we need to limit the api's/min or api's/sec.
+
+
+Algorithms
+1. Token Bucket
+2. Leaking Bucket
+3. Fixed Window Counter
+4. Sliding Window log
+5. Sliding Window counter
+
+
