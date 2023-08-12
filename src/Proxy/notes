@@ -1,0 +1,13 @@
+1. We need to provide a placeholder or surrogate to another object.
+2. proxy acts on behalf of the object and is used for lots of reasons some of the main reasons are :
+    a. Protection proxy - control access to original object's operation
+    b. remote proxy - provides a local representation of remote object
+    c. virtual proxy - delays construction of original object until abs. necessary
+
+
+Dynamic Proxy
+1. We start by implementing InvocationHandler
+Invocation Handler implements invoke method which is called to handle every method invocation on proxy.
+2. We need to take action as per method invoked. WE'll cache the method instances on image interface so that we can compare them
+inside invoke method
+3. Our invocation handler will accept same argument in constructor as needed by constructor or real object.

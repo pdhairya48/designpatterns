@@ -13,3 +13,6 @@ that they don't use. { Interface Pollution }
 5. Dependency Inversion -> High level modules shouldn't depends upon low level modules. Both
 should depend upon abstractions.
  Abstractions shouldn't depend upon details. Details should depend upon abstractions.
+
+
+ Behavioural Design Pattern descries how classes and objects interact & communicate with each other.
