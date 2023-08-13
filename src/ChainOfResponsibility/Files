@@ -1,0 +1,9 @@
+
+1. We need to avoid coupling the code which sends request to the code which handles that request.
+
+2. We create objects which are chained together by one objet knowing reference of objet which is next
+in chain. We give request to first object in chain, if it can't handle that it simply passes the request down the chain.
+
+
+
+
