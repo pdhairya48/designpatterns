@@ -1,0 +1,6 @@
+We want to represent a request or a method call as an object. Information about parameters passed and the actual
+operation is encapsulated in a object called COMMAND.
+
+Advantage of this is that, what would have been a method call is now an object which can be stored for later
+execution or sent to other parts of code.
+
