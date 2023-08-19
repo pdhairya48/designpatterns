@@ -1,5 +1,8 @@
 package Iterator;
 
+import java.io.PrintWriter;
+
+
 public class Client {
     public static void main(String[] args) {
         Iterator<ThemeColor> itr = ThemeColor.getIterator();
@@ -11,6 +14,5 @@ public class Client {
             System.out.println(itr2.hasNext());
         }
         System.out.println(itr2.next());
-
     }
 }
