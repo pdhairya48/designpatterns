@@ -1,0 +1,7 @@
+Iterator allows a way to access elements//children of an aggregate object in sequence while hiding the actual
+internal data structure used.
+
+In java language iterators are integral part of collection frameworks and they are implementations of
+this design pattern.
+
+Iterators are stateful, meaning an iterator object remembers it's prev state
