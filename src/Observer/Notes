@@ -1,0 +1,2 @@
+Using obs. design pattern we can notify multiple objects whenever an object changes state.
+This design pattern is also called as pub-sub
