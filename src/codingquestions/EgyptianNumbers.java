@@ -10,7 +10,7 @@ public class EgyptianNumbers {
         int base = map.size();
         int val = 0;
         for(int i = 0; i < num.length(); i++)
-            val+=Math.pow(base, num.length() - 1 - i)*map.get(num.charAt(i));
+            val+= (int) (Math.pow(base, num.length() - 1 - i)*map.get(num.charAt(i)));
         return val;
     }
 
@@ -38,6 +38,18 @@ public class EgyptianNumbers {
         int decimal = convertToDecimal(num, aMap1);
         String res = convertToBase(decimal, aMapReversed2);
         return res;
+    }
+
+    private static String conver(String num,String alphabet1,String alphabet2){
+        Map<Character,Integer> map1 = new HashMap<>();
+        Map<Integer,Character> reverseMap = new HashMap<>();
+        for(int i=0;i<alphabet1.length();i++){
+            map1.put(alphabet1.charAt(i),i);
+        }
+        for(int i=0;i<alphabet1.length();i++){
+            reverseMap.put(i,alphabet1.charAt(i));
+        }
+        return null;
     }
 
     public static void main(String[] args) {
