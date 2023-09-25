@@ -1,0 +1,7 @@
+We define an algorithm in a method as a series fo steps ( method calls )
+and provide a chance for subclasses to define or redefine some of these steps.
+
+This pattern allows you to defer implementation of parts of your algorithm which can vary or change
+
+Pattern works by defining abstract methods which then have to be implemented by concrete subclasses.
+These methods are like hooks which are then called by template methods.
