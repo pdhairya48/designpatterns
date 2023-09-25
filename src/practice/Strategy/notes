@@ -1,0 +1,4 @@
+Allows us to encapsulate an algorithm in a class. So now we can configure our context
+or main object with an object of this class, to change the algorithm used to perform given operation.
+
+This is relly helpful if you have many possible variations of an algorithm.
