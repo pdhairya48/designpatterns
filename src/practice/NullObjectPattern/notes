@@ -1,0 +1,4 @@
+Behavioural Design Pattern
+
+-> We use null value to represent an absence of object.
+-> using this pattern we can provide an alternate representtion to indicate an absecne.
